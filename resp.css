@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main{
+    background-color: rgb(242, 242, 242);
+    margin: 130px 290px;
+}
+.org {
+    float: left;
+    width: 250px;
+    color: white;
+    height: 400px;
+    padding: 15px 45px;
+    border: 2px solid rgb(226, 133, 37);   
+    background-color: rgb(226, 133, 37) !important; 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-image: url(./images/icon-sedans.svg);
+    background-repeat: no-repeat;
+    background-position: 45px 50px;
+    background-size: 50px;
+  }
+.green {
+    float: left;   
+    width: 250px;
+    color: white;
+    height: 400px;
+    padding: 15px 45px;
+    border: 2px solid rgb(1, 105, 114);
+    background-color:  rgb(1, 105, 114);  
+    background-image: url(./images/icon-suvs.svg);
+    background-repeat: no-repeat;
+    background-position: 45px 50px;
+    background-size: 50px;
+  }
+.blue{
+    float: left;   
+    width: 250px;
+    color: white;
+    height: 400px;
+    padding: 15px 45px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 2px solid rgb(0, 64, 63);
+    background-color:  rgb(0, 64, 63);
+    background-image: url(./images/icon-luxury.svg);
+    background-repeat: no-repeat;
+    background-position: 45px 50px;
+    background-size: 50px;
+}
+h3{
+    font-family: 'Agdasima', sans-serif !important;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: left;
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+span{
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 13px;
+    opacity: 0.5;
+    color: white;
+    word-spacing: 1px;
+}
+.lea{
+    font-family: 'Ysabeau Infant', sans-serif;
+    border: 1px solid white;
+    border-radius: 25px;
+    background-color: white !important ;
+    font-size: 13px;
+    height: auto;
+    width: 110px;
+    padding: 10px;
+    opacity: 0.9;
+    margin-top: 60px;
+    padding: 10px 17px;
+}
+.org .lea{
+    color: rgb(226, 133, 37); 
+}
+.green .lea{
+    color: rgb(1, 105, 114); 
+}
+.blue .lea{
+    color:  rgb(0, 64, 63); 
+}
+
+
